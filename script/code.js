@@ -1,7 +1,7 @@
-const sortItems = document.querySelector("#sort_button")
-const addItem = document.querySelector("#add_button")
-const Input = document.querySelector("#input_item")
-const output_list = document.querySelector("#list_of_items")
+let sortItems = document.querySelector("#sort_button")
+let addItem = document.querySelector("#add_button")
+let Input = document.querySelector("#input_item")
+let output_list = document.querySelector("#list_of_items")
 let to_DoList = []
 
 
@@ -25,7 +25,12 @@ addItem.addEventListener("click", ()=> {
     output_list.innerHTML = ""
     to_DoList.forEach( (item) => {
         output_list.innerHTML += `
-            <div class="blocked"><input class="hi" type="checkbox"> ${item} <button id="clear_button">x</button> </div>
+            <div id="item_added"><input id="checkbox" type="checkbox"> ${item} <button id="clear_button">&times</button></div>
         `
     })
 });
+
+let checkbox = document.querySelector("#checkbox")
+checkbox.addEventListener("click", ()=> {
+    
+})
