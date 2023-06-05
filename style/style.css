@@ -1,0 +1,57 @@
+/* Body and main */
+body {
+    font-family: cursive;
+    background-color: rgb(153, 127, 93);
+    text-align: center;
+    font-size: large;
+    width: 99%;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main {
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    box-shadow: 0.5rem 0.5rem;
+    width: 25rem;
+}
+/* Heading */
+#Heading {
+    font-weight: bold;
+    font-size: x-large;
+}
+/* Input */
+#input_item {
+    font-size: medium;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    background-color: transparent;
+    text-align: center;
+    padding: 0.5rem;
+}
+::placeholder {
+    color: rgba(0, 0, 0, 0.415);
+    font-weight: bold;
+}
+/* Buttons */
+#sort_button {
+    background-color: black;
+    color: rgb(153, 127, 93);
+    font-size: medium;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#add_button {
+    background-color: black;
+    color: rgb(153, 127, 93);
+    font-size: medium;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    border: 2px solid black;
+    cursor: pointer;
+}
