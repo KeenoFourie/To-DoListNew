@@ -55,3 +55,24 @@ main {
     border: 2px solid black;
     cursor: pointer;
 }
+/* Javascript clear button */
+#clear_button {
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    font-weight: bold;
+}
+#item_added {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.4rem;
+    border: 2px solid black;
+    padding: 0.8rem;
+    margin-right: 1.8rem;
+    margin-left: 0;
+    border-radius: 1rem;
+}
